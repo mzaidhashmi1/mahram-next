@@ -37,8 +37,11 @@ const faqs = {
 
 export function FAQ(){
 
-    const [openIndex, setOpenIndex] = useState(0);
-    const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
+    const [openIndex, setOpenIndex] = useState<number | null>(0);
+
+    const toggle = (i: number) => {
+      setOpenIndex(openIndex === i ? null : i);
+    };
 
     return(
         <>
