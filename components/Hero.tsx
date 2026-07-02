@@ -21,7 +21,7 @@ export function Hero(){
                         Find your <br /> ideal match
                     </h1>
                 </div>
-                <div className="flex flex-row pt-5 justify-center items-center gap-6 md:gap-15">
+                <div className="flex flex-row pt-5 justify-center items-center gap-6 md:gap-15 overflow-x-clip">
 
                     <div className="hidden md:block shrink-0">
                         <Card
